@@ -1,5 +1,6 @@
 var elliptic = require('elliptic')
 var BN = require('bn.js')
+var Buffer = require('buffer/').Buffer
 
 module.exports = function createECDH (curve) {
   return new ECDH(curve)
